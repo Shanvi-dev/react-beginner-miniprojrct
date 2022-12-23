@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  background-color: cadetblue;
+}
+h1{
+  
+  text-align: center;
+  margin-top: 150px;
+}
+button{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:darkgreen;
+  padding: 10px 10px;
+  background-color: cornsilk;
+  border: cornsilk;
+  border-radius: 5px;
+}
+button:hover{
+  background-color:lightyellow;
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 0px; */
+  ;
+  border: none;
+}
